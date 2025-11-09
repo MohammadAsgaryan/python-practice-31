@@ -1,0 +1,26 @@
+# Advanced Python Logging & Monitoring
+
+This project demonstrates advanced logging, decorators, time measurement, and file-based history tracking in Python.
+
+✅ Features:
+- Logs every run into `app.log`
+- Measures function execution time using a custom decorator
+- Stores execution history in `history.json`
+- Handles invalid user input (no crash)
+- Fully expandable for real-world apps
+
+## How to run
+
+python main.py
+
+## Example Output
+- User enters a number
+- Program creates a list from 1..n
+- Execution time is logged
+- History is saved to JSON
+
+## Technologies Used
+- logging
+- json
+- functools (decorators)
+- time
